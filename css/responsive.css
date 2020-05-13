@@ -120,6 +120,7 @@
   }
 
 /* -----------------------footer----------------------------- */
+/* -----------------------footer----------------------------- */
 
   .footer {
     padding:20px 0 ;
@@ -128,6 +129,17 @@
   .horizontal-list .horizontal-item a:hover {
     color:#fff;
   }
+
+  .horizontal-list .horizontal-item {
+    margin:0 5px;
+  }
+
+  .horizontal-list .horizontal-item:nth-of-type(2) a::before,
+.horizontal-list .horizontal-item:nth-of-type(3) a::before,
+.horizontal-list .horizontal-item:nth-of-type(4) a::before {
+  top:0;
+  left:-10px;
+}
 
 .go-top {
   width:80px;
