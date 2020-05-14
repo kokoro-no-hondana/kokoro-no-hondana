@@ -430,6 +430,7 @@ parts
   transition:opacity 0.15s;
   padding:5px;
   box-shadow:3px 3px 5px 5px rgba(0,0,0,0.15);
+  font-size:0;
 }
 
 .ranking .ranking-item a:hover {
