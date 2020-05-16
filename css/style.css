@@ -50,7 +50,7 @@ parts
   background:url(../images/back2.jpg);
   background-size:cover;
   height:500px;
-  padding:200px  50px;
+  padding:150px  50px;
 }
 
 .wrapper {
@@ -138,10 +138,10 @@ parts
 /* --------------------top------------------------ */
 
 .top-text {
-  color:rgba(255,255,255,0.8);
+  color:rgba(255,255,255,0.9);
   letter-spacing:2px;
   font-size:2.5rem;
-  padding:10px 0 ;
+  padding:20px 0 ;
 }
 
 .tt {
@@ -427,10 +427,10 @@ parts
 
 .ranking .ranking-item a {
   display:block;
+  font-size:0;
   transition:opacity 0.15s;
   padding:5px;
   box-shadow:3px 3px 5px 5px rgba(0,0,0,0.15);
-  font-size:0;
 }
 
 .ranking .ranking-item a:hover {
@@ -451,7 +451,7 @@ parts
   width:167px;
   color:#000;
   vertical-align:top;
-  font-size:1rem;
+  font-size:0.9rem;
   line-height:1.5;
   text-align:left;
 }
