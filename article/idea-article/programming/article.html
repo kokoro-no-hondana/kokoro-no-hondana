@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <title>素人が二ヵ月でWebサイトを作れるようになった話</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../../css/reset.css">
+  <link rel="stylesheet" href="../../../css/responsive.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<body>
+  <header class="header">
+    <a href="#">
+      <h1 class="title">ココロの本棚</h1>
+    </a>
+    <nav class="global-nav">
+      <ul>
+        <li class="nav-item"><a href="https://rg-kn.github.io/kokoro-no-hondana/">HOME</a></li>
+        <li class="nav-item"><a href="#">BOOK</a></li>
+        <li class="nav-item active"><a href="#">IDEA</a></li><span class="br"></span>
+        <li class="nav-item"><a href="#">CONTACT</a></li>
+        <li class="nav-item"><a href="#brand">BRAND</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="wrapper clearfix">
+    <main class="main">
+      <div class="article-sub-wrapper">
+        <h2 class="main-title">プログラミング初心者が<br><span class="main-title-showy">「たった二ヵ月で」</span><span class="br"></span>ホームページを作れるようになったまでの話</h2>
+        <p class="desc"><span class="showy">こんな人におすすめ！</span><br>
+          <span></span><br>
+          <ul>
+            <li>プログラミングには興味があるけど何をすればいいのか分からない人</li>
+            <span></span><br>
+            <li>それぞれの「プログラミング言語」の役割が分からない人</li>
+            <span></span><br>
+            <li>自分で一からwebサイトを作れるようになりたい人</li>
+            <span></span><br>
+          </ul>
+        </p>
+      </div>
+        
+        <ul class="article-subtitle-wrapper">
+          <div class="article-sub-wrapper">
+            <li class="article-subtitle">そもそも私がなぜwebサイトを作ろうと思ったか</li>
+            <h3 class="hidden">そもそも私がなぜwebサイトを作ろうと思ったか</h3>
+        
+            <p class="desc">私は、来年からある企業で働き始めます。<br>
+              その企業というのが、SEO(Search Engine Optimization)と呼ばれる「検索エンジン最適化」におけるコンサルティングを強みにしています。<br>
+              <span></span><br>
+              SEOについて詳しく知りたい方はこちらからご覧ください！<br>
+              <a href="#">SEOとは？</a><br>
+              <span></span><br>
+              SEOについて深く知るためには、まずはその根っこの部分である「webサイトの仕組み」を知りたいと考えました。<br>
+              <span class="showy">「仕組みを知るのであれば、自分で実際に作ってみよう！」</span><br>
+              という安直な気持ちでプログラミングを勉強し始めたのが本音です(笑)
+            </p>
+              
+           </div>
+          
+          <div class="article-sub-wrapper">
+            <li class="article-subtitle">プログラミング言語とは？</li>
+            <h3 class="hidden">プログラミング言語とは？</h3>
+
+            <p class="desc">プログラミング言語にはたくさんの種類があります。<br>
+              <span></span><br>
+              皆さん一度は聞いたことのあるだろう”Javascript”だったり、”Ruby”、はたまた”PHP”や”HTML”などたくさんの種類があります。<br>
+              なぜこんなに種類があるのかを一言でいうと、<br>
+              <span class="showy">「それぞれ用途が違う」</span>ということです。<br>
+              <span></span><br>
+              Webサイト作成に必要な言語の種類として、<br>
+              <span></span><br>
+              <span class="showy-red">①	クライアントサイド言語<br>（フロントサイド言語）</span><br>
+              <span class="showy-blue">②	サーバーサイド言語<br>（バックエンド言語）</span><br>
+              ③	データベース上で活躍する言語<br>
+              <span></span><br>
+              という三種類が存在します。<br>
+              <span></span><br>
+              ①	の<span class="showy-red">クライアントサイド言語</span>は
+              HTML、CSS、Javascriptなどの、ブラウザに表示される見た目を作ったり、動きを付けたりする言語のことです。<br>
+              <span></span><br>
+              ②	の<span class="showy-blue">サーバーサイド言語</span>は
+              Javascript、Ruby、Python、PHPなどの、サーバーで行う処理を記述する言語のことです。
+              Amazonなどで、商品をカートに入れたりするような、目には見えないところで複雑な処理等を行ってくれる言語です。
+              <span></span><br>
+              ③	は主にSQRのことを指します。（ここでは割愛します）
+              <span></span><br>
+              <span></span><br>
+              以上が主なプログラミング言語です。<br>
+              </p>
+          </div>
+          <div class="article-sub-wrapper">
+            <li class="article-subtitle">Webサイトを作成するためには</li>
+            <h3 class="hidden">Webサイトを作成するためには</h3>
+
+            <p class="desc">
+              ショッピングサイトなどの複雑な構造のWebサイトの作成を目指していない限りは、<br>
+              <span class="showy">HTMLとCSSという二つの言語の習得で十分</span>です！<br>
+              実際にこのサイトもこの二つの言語のみで作成されています！<br>
+              （下の未実装となっている検索窓を活用するためにはバックエンド言語であるPHPという言語を習得する必要があるのです…）<br>
+              <span></span><br>
+              ここでは、実際に私が二ヵ月でこのWebサイトを作成できるようになるまでのプロセスをお伝えしたいと思います！<br>
+              プログラミング教室に通うとなると何十万円という費用がかかるので、独学という道を選びました。<br>
+              <span></span><br>
+              まず最初に、無料でプログラミングを勉強できるサイトとして<br>
+              <span></span><br>
+              ①	<a class="button" href="https://prog-8.com/dashboard">Progate</a><br>
+              <span></span><br>
+              ②	<a class="button" href="https://dotinstall.com/">ドットインストール</a><br>
+              <span></span><br>
+              の二つがあります。<br>
+              特徴としては、<br>
+              <span class="showy">Progateは全てスライド形式で学習</span><br>
+              <span class="showy">ドットインストールは全て動画で学習</span><br>
+              という点です！<br>
+              <span></span><br>
+              私はどっちも使用したのですが、個人的にはProgateのほうが無料範囲内での載っている知識が多かったので、今からプログラミングの勉強を始める人にはProgateをおススメします！<br>
+              <span></span><br>
+              無料の範囲であれば、5時間ほどの学習で一周はできるので、一週間もあれば基本的な内容はマスターできます！<br>
+              <span></span><br>
+              ただ、やっぱり無料の範囲では作成できるWebサイトの質もそれなりのものになってしまうので、Progateに課金し(月額\1,000)、無料ではできなかった範囲の学習に入りました。<br>
+              <span></span><br>
+              やはり、お金がかかるだけあって、かなり質の高いWebサイトを作る演習になっていました。<br>
+              この範囲に関しては、15時間ほどの学習で一周はできるので、二週間ほどでマスターできるのではないかと思います。<br>
+              （私の場合は、これと並行してJavascript、Ruby、PHPの言語も学習していたので少し時間がかさみました）<br>
+              <span></span><br>
+              その次に、<br>
+              <span class="showy">「HTML5/CSS3　モダンコーディング」</span><br>
+              という本を購入し、更なる知識のインプットを目指しました。<br>
+              <span></span><br>
+              <span></span><br>
+              <iframe class="amazon" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=tf_til&t=milk1205-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4798141577&linkId=bf97e189ceb4bc9397edce0105e407c5&bc1=FFFFFF&lt1=_top&fc1=333333&lc1=0066C0&bg1=FFFFFF&f=ifr">
+              </iframe>
+              <span></span><br>
+              <span></span><br>
+              この本は、初学者では正直理解に苦しむ内容だと思うので、Progateの課金範囲を終えてからがちょうどいいかな、と思います。<br>
+              <span></span><br>
+              毎日3-5時間程度の学習で、一週間かかってようやく一周するぐらいの内容量でした。<br>
+              なので、完璧にマスターするには一か月ぐらいかかるのかな？というイメージです。<br>
+              <span></span><br>
+              <span class="showy">もちろん、インプットするだけでは何の意味もありません。</span><br>
+              さっそくアウトプットとして、Webサイトの制作に取り掛かりました。<br>
+              そうしてできあがったのがこのサイトです。<br>
+            </p>
+          </div>
+          <div class="article-sub-wrapper">
+            <li class="article-subtitle">まとめ</li>
+            <h3 class="hidden">まとめ</h3>
+            <p class="desc">
+              以上のように、独学であっても少し費用は掛かりますが、しっかりとしたWebサイトは制作できます！<br>
+              もちろん、WordPressのような、HTMLやCSSの知識がなくてもWebサイトを作成できるものもあるので、
+              「そんな知識覚えるのめんどくさいわ！！」
+              という人でも簡単にWebサイトは作成できます！<br>
+              <span></span><br>
+
+              プログラミングに少しでも興味があったり、何かしらのスキルを手に入れたい人は、このコロナによる自粛期間を活かして是非取り組んでみてください！<br>
+
+            </p>
+              
+           </div>
+        </ul>
+      
+    </main>
+    <div class="side-menu">
+      <div class="side-menu-wrapper">
+        <div class="self-introdaction">
+          <img class="self-image" src="images/self3.jpg" alt="自己紹介画像">
+          <ul class="sns-list">
+            <li class="sns facebook"><a  href="https://www.facebook.com/profile.php?id=100034942311803"><span class="fa fa-facebook"></span>facebook</a></li>
+            <li class="sns instagram"><a href="https://www.instagram.com/ryoga_0204/?hl=ja"><span class="fa fa-instagram"></span>Instagram</a></li>
+          </ul>
+          <p class="self-introdaction-text"><span class="name">編集者：がっちょ</span><br>
+          同志社大学の4回生です。<br>
+          「毎日が刺激的な人生」を求めて、日々を過ごしています。<br>
+          ①本に関する情報<br>
+          ②自分の価値観や考え方<br>
+          を発信していきます。
+          </p>
+        </div>
+        <div class="ranking-wrapper">
+          <h2 class="article-title article-title-ranking">RANKING</h2>
+          <ol class="ranking">
+            <li class="ranking-item">
+              <a href="https://rg-kn.github.io/kokoro-no-hondana-article-111111/">
+                <img class="image" src="images/ranking2.jpg" alt="グラフ画像">
+                <span class="order"></span>
+                <p class="text">参考書を買う本当の意味</p>
+              </a>
+            </li>
+            <li class="ranking-item">
+              <a href="#">
+                <img class="image" src="images/ranking2.jpg" alt="グラフ画像">
+                <span class="order"></span>
+                <p class="text">プログラミング初心者が「たった二ヵ月で」...</p>
+              </a>
+            </li>
+            <li class="ranking-item">
+              <a href="https://rg-kn.github.io/kokoro-no-hondana-article-111113/">
+                <img class="image" src="images/ranking2.jpg" alt="グラフ画像">
+                <span class="order"></span>
+                <p class="text">最近よく聞くSEOっていったい何？あなたの疑...</p>
+              </a>
+            </li>
+            <li class="ranking-item">
+              <a href="https://rg-kn.github.io/kokoro-no-hondana-article-211111/">
+                <img class="image" src="images/book1.jpg" alt="グラフ画像">
+                <span class="order"></span>
+                <p class="text">不朽の名作。「道をひらく」とは一体？！</p>
+              </a>
+            </li>
+            <li class="ranking-item">
+              <a href="https://rg-kn.github.io/kokoro-no-hondana-article-111115/">
+                <img class="image" src="images/ranking2.jpg" alt="グラフ画像">
+                <span class="order"></span>
+                <p class="text">(例)BOOK③の記事</p>
+              </a>
+            </li>
+            <li class="ranking-item">
+              <a href="https://rg-kn.github.io/kokoro-no-hondana-article-111116/">
+                <img class="image" src="images/ranking2.jpg" alt="グラフ画像">
+                <span class="order"></span>
+                <p class="text">(例)IDEA③の記事</p>
+              </a>
+            </li>
+            <li class="ranking-item">
+              <a href="https://rg-kn.github.io/kokoro-no-hondana-article-111117/">
+                <img class="image" src="images/ranking2.jpg" alt="グラフ画像">
+                <span class="order"></span>
+                <p class="text">(例)IDEA④の記事</p>
+              </a>
+            </li>
+          </ol>
+        </div>
+        <div class="brand" id="brand">
+          <h2 class="article-title">BRAND</h2>
+          <ul class="brand-list">
+            <li><a href="#">sstein</a></li>
+            <li><a href="#">kudos</a></li>
+            <li><a href="#">ryo takashima</a></li>
+            <li><a href="#">jieda</a></li>
+            <li><a href="#">auralee</a></li>
+            <li><a href="#">dairiku</a></li>
+            <li><a href="#">bench</a></li>
+            <li><a href="#">yoke</a></li>
+            <li><a href="#">unused</a></li>
+            <li><a href="#">URU</a></li>
+          </ul>
+          <p>//順次更新予定//</p>
+        </div>
+        <div class="search-wrapper">
+          <h2 class="hidden">SEARCH</h2>
+          <form class="search-box">
+            <input class="search-input" type="text" name="search" placeholder="SEARCH">
+            <input class="search-button" type="submit" value="検索">
+            <p class="text">サイト内の文章を検索できます。(未実装)</p>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="go-top">
+    <a href="#">
+      <p>TOPへ戻る</p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+        <path fill="none" d="M0 0h24v24H0V0z"/>
+        <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"/>
+        </svg>
+    </a>
+</div>
+  <footer class="footer">
+    <ul class="horizontal-list">
+      <li class="horizontal-item"><a href="#">ABOUT ME</a></li>
+      <li class="horizontal-item"><a href="#">SITE MAP</a></li><span class="br"></span>
+      <li class="horizontal-item"><a href="#">SNS</a></li>
+      <li class="horizontal-item"><a href="#">CONTACT</a></li>
+    </ul>
+    <p>© Ryoga Kondo</p>
+  </footer>
+</body>
+
+</html>
