@@ -275,11 +275,11 @@ parts
   margin-top:10px;
   color:#333;
   font-size:1.4rem;
-  line-height:1.6;
+  line-height:1.2;
 }
 
 .article-box .desc {
-  margin-top:5px;
+  margin-top:20px;
   color:#333;
   overflow:hidden;
   white-space:nowrap;
