@@ -48,9 +48,15 @@
     text-align: center;
   }
 
-  .main{
+ .main{
     width:100%;
     float: none;
+    margin-top:0;
+  }
+
+  .main .main-title {
+    padding-top:150px;
+    font-size:1.4rem;
   }
 
   .hot-topic .content {
