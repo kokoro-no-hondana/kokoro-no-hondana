@@ -9,6 +9,7 @@
   .header{
     height:120px;
     padding-top:10px;
+    top:0;
   }
 
   .header .title {
@@ -31,6 +32,7 @@
   
   .top-text {
     font-size:1.4rem;
+    padding:10px 0 ;
   }
   
   .top-text:nth-of-type(3) {
@@ -47,12 +49,17 @@
     width:320px;
     text-align: center;
   }
-  
-   .article-content {
+
+  .article-title {
+    margin-top:150px;
+    font-size:1.5rem;
+  }
+
+  .article-content {
     border:4px solid rgb(243, 189, 119);
   }
 
- .main{
+  .main{
     width:100%;
     float: none;
     margin-top:0;
@@ -96,6 +103,17 @@
     display:block;
     border-bottom:1px double rgb(90, 196, 223);
     margin-bottom:15px;
+  }
+
+  .image-wrapper .desc {
+    display:none;
+  }
+
+  .image-wrapper .image {
+    float:none;
+    width:90%;
+    display:block;
+    margin:0 auto;
   }
 
 /* -----------------------sidemenu----------------------------- */
