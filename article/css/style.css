@@ -197,7 +197,6 @@ parts
 
 .article-sub-wrapper .button {
   display:inline-block;
-  line-height:0.5;
 }
 
 .article-sub-wrapper .button::after {
